@@ -1,0 +1,107 @@
+/* TOP BAR */
+.top-bar {
+    background: #002f5b;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* HEADER */
+.header {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #004080;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 12px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #002f5b;
+}
+
+/* HERO */
+.hero {
+    height: 300px;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+/* NOTICE BOARD */
+.notice {
+    padding: 30px;
+    background: #f4f4f4;
+}
+
+.notice ul {
+    list-style: none;
+}
+
+.notice li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* QUICK LINKS */
+.quick-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.link-box {
+    background: #004080;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/* SCHEME */
+.scheme {
+    padding: 30px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #002f5b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .quick-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
